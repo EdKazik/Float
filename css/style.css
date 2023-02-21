@@ -7,45 +7,41 @@
 }
 
 .line1 {
-background: #05043f;
-
+  background: #05043f;
 }
 .line1_box {
   width: 400px;
   height: 400px;
   float: left;
   border: 4px solid rgb(36, 225, 36);
-  
 }
 .line2 {
-background: #802525;
-
+  background: #802525;
 }
 .line2_left_box {
-width: 800px;
-height: 200px;
-background: #a43404;
-border: 4px solid rgb(36, 225, 36);
-float: left;
+  float: left;
+}
+.line2_left_block {
+  width: 800px;
+  height: 200px;
+  background: #a43404;
+  border: 4px solid rgb(36, 225, 36);
 }
 .line2_right_box {
+  float: left;
+}
+.line2_right_block {
   width: 400px;
   height: 133px;
   background: #0999c1;
-  border: 4px solid rgb(36, 225, 36);
-  display: inline-block;
-  
- 
+  border: 4px solid #24e124;
 }
 .line3 {
   background: #f60fdf;
-  
- 
 }
 .line3_1_box {
   width: 400px;
   height: 400px;
-  display: inline-block;
   float: left;
   border: 4px solid rgb(36, 225, 36);
 }
@@ -55,23 +51,18 @@ float: left;
   border: 4px solid rgb(36, 225, 36);
   float: right;
   background: #000;
-  display: inline-block;
-  
 }
 .line3_3_box {
   width: 400px;
   height: 200px;
   border: 4px solid rgb(36, 225, 36);
   background: #46044b;
-  display: inline-block;
-  
+  float: left;
 }
 .line3_4_box {
   width: 400px;
   height: 200px;
-  border: 4px solid rgb(36, 225, 36);
   background: #e1f40b;
-  display: inline-block;
   float: right;
 }
 .line3_5_box {
@@ -79,20 +70,17 @@ float: left;
   height: 100px;
   border: 4px solid rgb(36, 225, 36);
   background: #f5f909;
-  display: inline-block;
-  float: right;
+  
 }
 .line3_6_box {
   width: 400px;
   height: 100px;
   border: 4px solid rgb(36, 225, 36);
   background: #181be4;
-  display: inline-block;
-  float: right;
 }
 
 .clearfix:after {
-content: "";
-display: block;
-clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
